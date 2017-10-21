@@ -1,0 +1,36 @@
+#nav-bar {
+  background-color: #00a087;
+  color: #e8fdff;
+  height: 80px;
+  padding: 0 2em 0 2em;
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+
+#nav-bar .logo {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+  float: left; }
+
+#nav-bar .header {
+  font-size: 2em;
+  line-height: 80px; }
+
+#nav-bar ul {
+  float: right;
+  list-style: none;
+  margin: 30px 0; }
+  #nav-bar ul a {
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #555;
+    background-color: #eee;
+    padding: 20px 10px;
+    border-radius: 5px;
+    color: #00a087; }
+
+#nav-bar a:hover {
+  border: 1px solid black;
+  color: #e8fdff;
+  background-color: #555; }
