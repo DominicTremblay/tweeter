@@ -10,6 +10,9 @@ const { MongoClient }   = require("mongodb");
 const MONGODB_URI       = "mongodb://localhost:27017/tweeter";
 const sassMiddleware    = require('node-sass-middleware');
 const path              = require('path');
+const methodOverride      = require('method-override');
+
+app.use(methodOverride('X-HTTP-Method-Override'));
 
 app.use(sassMiddleware({
   /* Options */

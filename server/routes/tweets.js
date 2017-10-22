@@ -42,7 +42,7 @@ module.exports = function(DataHelpers) {
     });
   });
 
-  tweetsRoutes.post("/:id", (req, res) => {
+  tweetsRoutes.put("/:id", (req, res) => {
     
     const tweetUpdate = {
       id: req.params.id,

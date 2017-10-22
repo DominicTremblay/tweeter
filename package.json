@@ -16,6 +16,7 @@
     "chance": "^1.0.2",
     "express": "^4.13.4",
     "md5": "^2.1.0",
+    "method-override": "^2.3.10",
     "mongodb": "^2.2.33",
     "node-sass": "^4.5.3",
     "node-sass-middleware": "^0.11.0",

@@ -204,6 +204,7 @@
       $.ajax({
         url: `/tweets/${id}`,
         type: 'post',
+        headers: { 'X-HTTP-Method-Override': 'PUT' },
         data: data
       })
       .done(function(like){
