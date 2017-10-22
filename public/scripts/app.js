@@ -218,6 +218,34 @@
 
     });
 
+    $('form.new-user').on('submit', function(e) {
+
+      e.preventDefault();
+
+      const username  = $(this).find('input[name="username"]').val();
+      const email     = $(this).find('input[name="email"]').val();
+      const password  = $(this).find('input[name="password"]').val();
+
+      user = {
+        username,
+        email,
+        password
+      };
+
+      $.ajax({
+        url:  '/users',
+        type: 'post',
+        data: user,
+      })
+      .done(function(response){
+        console.log(response);
+      })
+      .fail(function(error, xhr){
+        console.log(error, xhr);
+      })
+
+    });
+
     loadTweets();
 
 

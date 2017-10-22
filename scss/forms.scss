@@ -1,0 +1,26 @@
+form.new-user { 
+
+    margin-bottom: 40px;
+
+    .form-group {
+    
+        width: 100%;
+        margin: 5px auto;
+        
+        label {
+            display: inline-block;
+            width: 20%;
+        }
+
+        input {
+            width: 78%;
+        }
+
+    }
+
+    input[type="submit"] {
+        float: right;
+        margin-right: 1%;
+    }
+
+}

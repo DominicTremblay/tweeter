@@ -1,0 +1,13 @@
+form.new-user {
+  margin-bottom: 40px; }
+  form.new-user .form-group {
+    width: 100%;
+    margin: 5px auto; }
+    form.new-user .form-group label {
+      display: inline-block;
+      width: 20%; }
+    form.new-user .form-group input {
+      width: 78%; }
+  form.new-user input[type="submit"] {
+    float: right;
+    margin-right: 1%; }
